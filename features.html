@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FurniShop</title>
+</head>
+<body class="font-japanese">
+
+    <section class="header">
+        <nav class="nav text-right block md:flex justify-around px-6">
+            <div class="flex items-center justify-between">
+                <h1 class="font-bold p-6 text-gray-700 text-3xl ">
+                    <a href="index.html">furni.Shop</a>
+                </h1>
+
+                <div class="px-4 py-4 flex cursor-pointer md:hidden" >
+                    <img src="img/More Icon.png" alt="" class="w-7 ml-7" id="burger">                         
+                    <img src="img/Search Icon.png" alt="" class="w-7 ml-7" id="burger">                         
+                </div>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul class="text-sm mt-3 hidden display-block md:flex text-black font-montserrat" id="menu">
+                    <li class="py-1 font-medium">
+                        <a href="index.html" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
+                            <span>Home</span>
+                        </a>
+                    </li>
+    
+                    <li class="py-1 font-medium">
+                        <a href="about.html" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
+                            <span>About</span>
+                        </a>
+                    </li>
+    
+                    <li class="py-1 font-medium">
+                        <a href="features.html" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
+                            <span>Features</span>                             
+                        </a>
+                    </li>
+    
+                    <li class="py-1 font-medium">
+                        <a href="contact.html" class="px-8 lg:px-8 md:px-5 sm:py-3 py-0 flex justify-center">
+                            <span>Contact</span>                             
+                        </a>
+                    </li>
+                </ul> 
+            </div>
+            <div class="px-4 py-6 md:flex cursor-pointer hidden">
+                <img src="img/Search Icon.png" alt="" class="w-7 h-7 ml-7" id="burger"> 
+                <img src="img/More Icon.png" alt="" class="w-7 h-7 ml-7" id="burger">                        
+            </div>
+        </nav>
+        <div class="main-3 lg:bg-right lg:mr-24 lg:bg-no-repeat bg-header bg-cover bg-[30%_center] md:bg-center min-h-screen mx-auto aspect-w-16 aspect-h-11 lg:aspect-h-9">
+            <div class="glass h-80 md:rounded-3xl md:h-96 md:w-100 md:mx-16 md:mt-56 lg:w-100 lg:h-100 lg:rounded-none lg:mt-44 lg:text-left lg:mx-0 xlg:w-101.4">
+                <img src="img/dots-small.png" alt="" class="mt-10 h-16 md:hidden">
+                <img src="img/dots.big.png" alt="" class="-mt-6 -ml-6 h-32 md:flex lg:-mt-20 lg:ml-32 lg:h-28 xlg:ml-44 cursor-pointer hidden">
+                <h1 class="-mt-12 text-brown font-extrabold text-center text-3xl mx-16 my-4 md:text-5xl md:-mt-24 md:p-8 md:font-black md:my-0 md:mx-12 lg:text-5xl lg:text-left lg:mt-14 xlg:text-6xl">We Help You Make Modern Interior</h1>
+                <p class="mx-8 my-2 text-gray-900 font-montserrat text-center md:text-xl md:px-14 md:my-0 lg:text-left lg:px-12 lg:text-lg xlg:text-2xl">
+                    We will help you to make an elegant and luxurious interior designed by professional interior designer.
+                </p>
+            </div>
+        
+            <div class="pagenation h-36 flex flex-col justify-center items-center mt-auto mb-5 md:hidden">
+                <div class="flex mt-7">
+                    <div class="w-9 h-9 rounded-full bg-white text-xl text-center pt-1 mx-4">
+                        <i class="fa-solid fa-chevron-left text-gray-700"></i>
+                    </div>
+                    <div class="w-9 h-9 rounded-full bg-white text-xl text-center pt-1 mx-4">
+                        <i class="fa-solid fa-chevron-right text-gray-700"></i>
+                    </div>
+                </div>
+        
+                <div class="glass h-12 w-56 rounded-full flex justify-evenly py-2 mt-7">
+                    <h1 class="text-xl font-black text-gray-800">01</h1>
+                    <div class="w-20 h-1 bg-gray-300 mt-3"></div>
+                    <h1 class="text-xl font-black text-gray-800">02</h1>
+                </div>
+            </div>
+            <div class="pagenation w-12 md:block justify-center items-end ml-100 mt-98 lg:ml-120 lg:mt-60 xlg:ml-122 hidden h-80">
+                <div class="block pr-2">
+                    <div class="w-9 h-9 rounded-full bg-white text-xl text-center pt-1 my-6">
+                        <i class="fa-solid fa-chevron-up text-gray-700"></i>
+                    </div>
+                    <div class="w-9 h-9 rounded-full bg-white text-xl text-center pt-1 my-6">
+                        <i class="fa-solid fa-chevron-down text-gray-700"></i>
+                    </div>
+                </div>
+        
+                <div class="bg-white h-40 w-10 rounded-full block px-2 justify-center items-center">
+                    <h1 class="text-xl font-black text-gray-800 my-3">01</h1>
+                    <div class="w-1 h-20 bg-gray-300 mx-3 my-1"></div>
+                    <h1 class="text-xl font-black text-gray-800 my-3">02</h1>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Custom js file -->
+   <script src="js/taskflow.js"></script>
+    
+</body>
+</html>
