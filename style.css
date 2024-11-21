@@ -599,19 +599,9 @@ video {
   margin-right: auto;
 }
 
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
 }
 
 .my-4 {
@@ -961,6 +951,12 @@ video {
   -webkit-backdrop-filter: blur(25px);
 }
 
+.glass-1{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.332));
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+}
+
 @media (min-width: 768px){
   .glass h1{
     line-height: 4rem;
@@ -987,9 +983,29 @@ video {
   .glass h1{
     line-height: 4rem;
   }
+}
 
+@media (min-width: 1080px){
+  .glass h1{
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 2560px){
+  .glass h1{
+    line-height: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
   .lg\:aspect-h-9 {
     --tw-aspect-h: 9;
+  }
+}
+
+@media not all and (min-width: 2560px) {
+  .max-xxxlg\:font-black {
+    font-weight: 900;
   }
 }
 
@@ -1185,5 +1201,120 @@ video {
   .xlg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1600px) {
+  .xxlg\:ml-124 {
+    margin-left: 95rem;
+  }
+
+  .xxlg\:ml-52 {
+    margin-left: 13rem;
+  }
+
+  .xxlg\:w-101\.5 {
+    width: 42rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .xxxlg\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .xxxlg\:-mt-36 {
+    margin-top: -9rem;
+  }
+
+  .xxxlg\:ml-200 {
+    margin-left: 155rem;
+  }
+
+  .xxxlg\:ml-80 {
+    margin-left: 20rem;
+  }
+
+  .xxxlg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .xxxlg\:mt-96 {
+    margin-top: 24rem;
+  }
+
+  .xxxlg\:mt-98 {
+    margin-top: 36rem;
+  }
+
+  .xxxlg\:h-101 {
+    height: 46rem;
+  }
+
+  .xxxlg\:h-16 {
+    height: 4rem;
+  }
+
+  .xxxlg\:h-32 {
+    height: 8rem;
+  }
+
+  .xxxlg\:h-44 {
+    height: 11rem;
+  }
+
+  .xxxlg\:h-60 {
+    height: 15rem;
+  }
+
+  .xxxlg\:w-120 {
+    width: 67rem;
+  }
+
+  .xxxlg\:w-16 {
+    width: 4rem;
+  }
+
+  .xxxlg\:p-20 {
+    padding: 5rem;
+  }
+
+  .xxxlg\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .xxxlg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .xxxlg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .xxxlg\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .xxxlg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xxxlg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xxxlg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .xxxlg\:leading-loose {
+    line-height: 2;
   }
 }
